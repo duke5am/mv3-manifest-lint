@@ -429,4 +429,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-→ **Chrome MV3 Extension Starter**: <!-- GUMROAD-LINK -->
+→ **[Chrome MV3 Extension Starter](https://duke5am.gumroad.com/l/04-chrome-extension-mv3-starter)** — $24 on Gumroad <!-- GUMROAD-LINK -->
