@@ -1,0 +1,10 @@
+/* Present so the page has one stylesheet that actually resolves. */
+body {
+  font: 13px/1.4 system-ui, sans-serif;
+  margin: 0;
+  padding: 12px;
+}
+
+#status {
+  color: #444;
+}

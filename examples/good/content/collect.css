@@ -1,0 +1,17 @@
+#reading-list-notes-badge {
+  background: #1b1b1f;
+  border: 1px solid #3a3a44;
+  border-radius: 6px;
+  bottom: 16px;
+  color: #f5f5f7;
+  cursor: pointer;
+  font: 12px/1.4 system-ui, sans-serif;
+  padding: 6px 10px;
+  position: fixed;
+  right: 16px;
+  z-index: 2147483647;
+}
+
+#reading-list-notes-badge:hover {
+  background: #2b2b33;
+}

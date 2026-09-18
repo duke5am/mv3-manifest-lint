@@ -1,0 +1,56 @@
+{
+  "manifest_version": 2,
+  "name": "Scrape Anything (broken demo)",
+  "version": "1.2.3-beta",
+  "description": "A deliberately broken Manifest V2 extension used to demonstrate every finding mv3-manifest-lint can report. Nothing in this directory is meant to install or run; it exists only as lint input.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Scrape this page",
+    "default_popup": "popup.html"
+  },
+  "page_action": {
+    "default_title": "Scrape this page"
+  },
+  "content_security_policy": "script-src 'self' https://cdn.example.invalid 'unsafe-eval' https://cdn.example.invalid; object-src 'self'",
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://example.invalid/*",
+    "<all_urls>",
+    "*://*.example.invalid/*"
+  ],
+  "host_permissions": [
+    "storage",
+    "downloads",
+    "https://api.example.invalid/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://example.invalid",
+        "https://example.invalid/*",
+        "<all_urls>"
+      ],
+      "js": [
+        "content/scrape.js"
+      ],
+      "css": [
+        "content/scrape.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/logo.png",
+    "lib/helper.js"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png"
+  },
+  "options_page": "options.html"
+}

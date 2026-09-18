@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 12px;
+  min-width: 280px;
+}
+
+h1 {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+input,
+button {
+  box-sizing: border-box;
+  font: inherit;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 8px;
+  padding: 6px;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px;
+}
+
+#status {
+  font-size: 12px;
+  min-height: 1em;
+  margin: 8px 0 0;
+}

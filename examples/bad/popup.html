@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Scrape this page</title>
+    <!-- Findings demonstrated here: HTML-001 (remote script), HTML-002
+         (inline script), HTML-003 (inline event handler), HTML-004 (remote
+         stylesheet), and FILE-001 for the missing popup.js. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.example.invalid/inter-1.0/inter.css"
+    />
+    <link rel="stylesheet" href="popup.css" />
+    <script src="https://cdn.example.invalid/jquery-4.0.0.min.js"></script>
+    <script>
+      window.scrapeConfig = { endpoint: "https://api.example.invalid/v1/scrape" };
+    </script>
+  </head>
+  <body>
+    <h1>Scrape this page</h1>
+    <button id="scrape" onclick="startScrape()">Scrape</button>
+    <p id="status" onmouseover="highlight()">Idle</p>
+    <!-- A commented-out handler must not be reported:
+    <button onclick="neverRuns()">Commented out</button>
+    -->
+    <!-- popup.js is referenced but absent from this example on purpose. -->
+    <script src="popup.js"></script>
+  </body>
+</html>
