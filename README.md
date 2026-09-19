@@ -429,4 +429,27 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+<!-- RELATED:START -->
+
+## Related tools
+
+- **[openapi-breaking-change-lint](https://github.com/duke5am/openapi-breaking-change-lint)** — Diff two OpenAPI specs and classify every change as breaking, potentially breaking or compatible. CI gate plus API design lint, no dependencies.
+  *(if you were searching for "openapi breaking changes")*
+- **[schema-jsonld-validator](https://github.com/duke5am/schema-jsonld-validator)** — Validate JSON-LD structured data against the real schema.org vocabulary and Google's requirements, and warn on markup features Google has retired.
+  *(if you were searching for "json-ld validator")*
+- **[stripe-webhook-replay](https://github.com/duke5am/stripe-webhook-replay)** — Replay Stripe subscription webhooks at your local handler with real signatures: out-of-order delivery, dunning failures, duplicates and retries.
+  *(if you were searching for "replay stripe webhooks locally")*
+- **[vscode-extension-lint](https://github.com/duke5am/vscode-extension-lint)** — Static linter for a VS Code extension project: manifest, .vscodeignore and packaging mistakes that get you rejected or ship a broken extension.
+  *(if you were searching for "vscode extension publishing errors")*
+- **[wcag-axe-crawler](https://github.com/duke5am/wcag-axe-crawler)** — Crawl a site with axe-core and report WCAG violations, and generate an accessibility statement that refuses to claim conformance you cannot prove.
+  *(if you were searching for "wcag accessibility audit tool")*
+- **[webhook-signature-verify](https://github.com/duke5am/webhook-signature-verify)** — Verify Stripe, GitHub and Shopify webhook signatures correctly, plus race-free idempotency so a retried delivery can never execute twice.
+  *(if you were searching for "stripe webhook signature verification")*
+
+All 28 tools in this set, grouped by what they check: **[dev-tools-index](https://duke5am.github.io/dev-tools-index/)**
+
+If you arrived here searching for one of these, this is the tool: **chrome extension manifest v3 errors** · **mv3 csp unsafe-eval** · **web store rejection** · **manifest v3 migration check**
+
+<!-- RELATED:END -->
+
 → **[Chrome MV3 Extension Starter](https://duke5am.gumroad.com/l/04-chrome-extension-mv3-starter)** — $24 on Gumroad <!-- GUMROAD-LINK -->
